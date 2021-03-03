@@ -82,13 +82,13 @@ namespace emu
         .h = MARGIN / 2 + SCREEN_HEIGHT - MARGIN - (J4_Y + J5_Y) / 2};
 
     std::array<Button, 19> buttons{
-        Button{"M1(QS)", BUTTON_MAIN1, MB1_X, MB1_Y, B_GRAY, B_GRAY, B_GRAY, "Q"},
-        Button{"M2", BUTTON_MAIN2, MB2_X, MB1_Y, B_GRAY, B_GRAY, B_GRAY, "W"},
+        Button{"M1(QS)", BUTTON_MAIN1, MB1_X, MB1_Y, B_GRAY, B_GRAY, B_GRAY, "A"},
+        Button{"M2", BUTTON_MAIN2, MB2_X, MB1_Y, B_GRAY, B_GRAY, B_GRAY, "Z"},
         Button{"M3", BUTTON_MAIN3, MB3_X, MB1_Y, B_GRAY, B_GRAY, B_GRAY, "E"},
         Button{"M4", BUTTON_MAIN4, MB4_X, MB1_Y, B_GRAY, B_GRAY, B_GRAY, "R"},
         Button{"M5", BUTTON_MAIN5, MB5_X, MB1_Y, B_GRAY, B_GRAY, B_GRAY, "T"},
         Button{"M6", BUTTON_MAIN6, MB6_X, MB1_Y, B_GRAY, B_GRAY, B_GRAY, "Y"},
-        Button{0, BUTTON_DIAL1, MB1_X, SB1_Y, 0, 0, B_BLUE, "A"},
+        Button{0, BUTTON_DIAL1, MB1_X, SB1_Y, 0, 0, B_BLUE, "Q"},
         Button{"CANCEL", BUTTON_DIAL2, MB2_X, SB1_Y, 0, 0, B_BLUE, "S"},
         Button{"HOME", BUTTON_DIAL3, MB3_X, SB1_Y, 0, 0, B_BLUE, "D"},
         Button{"S1", BUTTON_SUB1, MB4_X, SB1_Y, B_GRAY, B_GRAY, B_GRAY, "F"},

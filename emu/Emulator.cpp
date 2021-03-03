@@ -506,13 +506,13 @@ namespace emu
     readyQ.push(&pong);
     Events_push(EVENT_DISPLAY_READY);
 
-    keyMap[SDLK_q] = BUTTON_MAIN1;
-    keyMap[SDLK_w] = BUTTON_MAIN2;
+    keyMap[SDLK_a] = BUTTON_MAIN1;
+    keyMap[SDLK_z] = BUTTON_MAIN2;
     keyMap[SDLK_e] = BUTTON_MAIN3;
     keyMap[SDLK_r] = BUTTON_MAIN4;
     keyMap[SDLK_t] = BUTTON_MAIN5;
     keyMap[SDLK_y] = BUTTON_MAIN6;
-    keyMap[SDLK_a] = BUTTON_DIAL1;
+    keyMap[SDLK_q] = BUTTON_DIAL1;
     keyMap[SDLK_s] = BUTTON_DIAL2;
     keyMap[SDLK_d] = BUTTON_DIAL3;
     keyMap[SDLK_f] = BUTTON_SUB1;
